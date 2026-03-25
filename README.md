@@ -2,9 +2,7 @@
 
 A GPS-based speedometer for the **LilyGO T-Display-S3** (ESP32-S3) that automatically determines local time and timezone from GPS coordinates — **no internet, no NTP, no RTC required**.
 
-![alt text](photo/stop.png)
-
-<img src="photo/stop.png" alt="rr" width="128"/>
+<img src="photo/stop.png" alt="General appearance" width="600"/>
 
 ---
 
@@ -153,6 +151,27 @@ struct CountryProfile {
 To add a new entry or change the `CUSTOM` coordinates, edit `country_profiles.h`
 directly — no changes to the main sketch are needed.
 EGNOS/SBAS is always enabled unconditionally; there is no per-country SBAS flag.
+
+---
+
+## Operating Modes
+
+### 
+
+<img src="photo/back.png" alt="General appearance" width="600"/>
+
+<img src="photo/front.png" alt="General appearance" width="600"/>
+
+<img src="photo/looking_for_large.png" alt="General appearance" width="600"/>
+
+<img src="photo/looking_for_small.png" alt="General appearance" width="600"/>
+
+<img src="photo/ride.png" alt="General appearance" width="600"/>
+
+<img src="photo/error_small.png" alt="General appearance" width="600"/>
+
+### 
+
 
 ---
 
