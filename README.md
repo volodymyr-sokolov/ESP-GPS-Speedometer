@@ -227,7 +227,7 @@ Format: `CAL:raw_adc_v,real_v;raw_adc_v,real_v;...` (minimum 2 points). Values a
 
 ## License
 
-MIT — see `![LICENSE](LICENSE.md)` for details.
+MIT — see ![LICENSE](LICENSE.md) for details.
 
 ---
 
