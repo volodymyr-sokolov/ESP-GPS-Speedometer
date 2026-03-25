@@ -23,6 +23,7 @@ Timezone data is stored entirely in ESP32 Flash as a pre-generated PROGMEM looku
 - **HDOP + VDOP** — dilution of precision from GGA + GSA sentences
 - **Night mode** — auto dimming based on calculated sunrise/sunset
 - **Battery monitor** — ADC-based with calibration, percentage + voltage display
+- **Direction detection** — turns on only at speeds over 3 km/h
 - **Deep sleep** — manual (button hold) and automatic (low battery)
 - **Warm start** — last position + time saved to NVS; sent to GPS on wake for fast TTFF
 - **Two screen modes** — full info panel (Screen 1) / fullscreen speed digits (Screen 2)
