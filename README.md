@@ -1,4 +1,4 @@
-# ESP GPS Speedometer with Auto Timezone — LilyGO T-Display-S3 + u-blox NEO-M10
+# ESP32 GPS Speedometer with Auto Timezone — LilyGO T-Display-S3 + u-blox NEO-M10
 
 A GPS-based speedometer for the **LilyGO T-Display-S3** (ESP32-S3) that automatically determines local time and timezone from GPS coordinates — **no internet, no NTP, no RTC required**.
 
@@ -43,6 +43,8 @@ Timezone data is stored entirely in ESP32 Flash as a pre-generated PROGMEM looku
 | Battery ADC | GPIO 4 (×2 voltage divider) |
 | Sleep button | GPIO 0 (BOOT) — hold to sleep |
 | Wake button | GPIO 14 (KEY) — wake from deep sleep / toggle Screen 2 |
+
+Note! The LilyGO T-Display-S3 has a unique feature: it's impossible to put the GPS module into sleep mode without additional components. Even if the ESP32 goes into sleep mode, the GPS module continues to operate normally and consumes approximately 25 mA, which drains the battery very quickly. Therefore, an additional switch can be added for the GPS module.
 
 ### Connection Method
 
