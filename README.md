@@ -4,6 +4,8 @@ A GPS-based speedometer for the **LilyGO T-Display-S3** (ESP32-S3) that automati
 
 ![alt text](photo/stop.png)
 
+<img src="photo/stop.png" alt="rr" width="128"/>
+
 ---
 
 ## Overview
