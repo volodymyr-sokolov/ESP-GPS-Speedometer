@@ -51,8 +51,8 @@ gps_speedometer.ino      Main Arduino sketch
 country_profiles.h       Home-location table for GPS warm-start hints
 timezone_data.h          Auto-generated PROGMEM timezone polygons + metadata
 timezone_lookup.h        Coordinate → timezone lookup algorithm (header-only)
-convert.py               Step 1 — download & enrich timezone GeoJSON
-compress.py              Step 2 — convert GeoJSON → Arduino .h files
+scripts/convert.py               Step 1 — download & enrich timezone GeoJSON
+scripts/compress.py              Step 2 — convert GeoJSON → Arduino .h files
 ```
 
 ---
