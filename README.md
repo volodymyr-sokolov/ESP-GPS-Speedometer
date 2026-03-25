@@ -44,6 +44,14 @@ Timezone data is stored entirely in ESP32 Flash as a pre-generated PROGMEM looku
 | Sleep button | GPIO 0 (BOOT) — hold to sleep |
 | Wake button | GPIO 14 (KEY) — wake from deep sleep / toggle Screen 2 |
 
+### Connection Method
+
+The LilyGO T-Display-S3 was chosen for the device, featuring a proprietary plastic case with dedicated pins on the rear panel. For convenience, a battery was also added to the center of the case for battery-powered operation when the engine is off.
+
+<img src="photo/front.png" alt="Connection front" width="400"/>
+
+<img src="photo/back.png" alt="Connection back" width="400"/>
+
 ---
 
 ## Repository Structure
@@ -154,24 +162,30 @@ EGNOS/SBAS is always enabled unconditionally; there is no per-country SBAS flag.
 
 ---
 
-## Operating Modes
+## Modes
 
-### 
+### Operating Mode
 
-<img src="photo/back.png" alt="General appearance" width="600"/>
+There are two screens available: a general screen with all the information and, by pressing a button, you can switch to numbers only.
 
-<img src="photo/front.png" alt="General appearance" width="600"/>
+<img src="photo/ride_small.png" alt="General appearance" width="400"/>
 
-<img src="photo/looking_for_large.png" alt="General appearance" width="600"/>
+<img src="photo/ride_large.png" alt="General appearance" width="400"/>
 
-<img src="photo/looking_for_small.png" alt="General appearance" width="600"/>
 
-<img src="photo/ride.png" alt="General appearance" width="600"/>
+### Search Mode
 
-<img src="photo/error_small.png" alt="General appearance" width="600"/>
+While searching for satellites, the speed and number of satellites are displayed in orange. The u-blox NEO-M10 uses a maximum of 12 satellites to determine its position.
 
-### 
+<img src="photo/looking_for_small.png" alt="Looking for satellites" width="400"/>
 
+<img src="photo/looking_for_large.png" alt="Looking for satellites" width="400"/>
+
+### Error identification
+
+If the GPS module is not connected or returns incorrect values, a red line is displayed at the end of the grace period.
+
+<img src="photo/error_small.png" alt="Error" width="400"/>
 
 ---
 
