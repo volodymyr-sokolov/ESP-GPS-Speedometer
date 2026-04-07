@@ -21,7 +21,7 @@ struct CountryProfile {
 };
 
 static const CountryProfile COUNTRY_PROFILES[] = {
-	{ "CUSTOM",  51.0369f,  7.5852f, 250.0f }, // add your house or work location
+	{ "CUSTOM",  50.9424f,  6.9571f, 250.0f }, // add your house or work location
     { "AD", 42.507f,   1.521f, 1023.0f }, // Andorra la Vella, Andorra
     { "AE", 24.467f,  54.367f,    5.0f }, // Abu Dhabi, United Arab Emirates
     { "AF", 34.529f,  69.172f, 1791.0f }, // Kabul, Afghanistan
