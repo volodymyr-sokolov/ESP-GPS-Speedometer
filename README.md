@@ -72,6 +72,10 @@ scripts/compress.py              Step 2 — convert GeoJSON → Arduino .h files
 
 ## Arduino Usage
 
+### Compilation in Arduino EDI
+
+It is better to choose the ESP32S3 Dev Module as a board, which supports a firmware speed of 921600 baud.
+
 ### Display Usage
 
 To work with the display, use the TFT_eSPI library.
