@@ -74,7 +74,7 @@ scripts/compress.py              Step 2 — convert GeoJSON → Arduino .h files
 
 ### Compilation in Arduino EDI
 
-It is better to choose the ESP32S3 Dev Module as a board, which supports a firmware speed of 921600 baud.
+It is better to choose the **ESP32S3 Dev Module** as a board, which supports a firmware speed of 921600 baud.
 
 ### Display Usage
 
@@ -88,7 +88,7 @@ To work with the display, use the TFT_eSPI library.
 #include <User_Setups/Setup206_LilyGo_T_Display_S3.h>
 ```
 
-If the standard library doesn't support this display, install it from the official repository [Xinyuan-LilyGO/T-Display-S3](https://github.com/Xinyuan-LilyGO/T-Display-S3) or take it from this repository [Setup206_LilyGo_T_Display_S3.h](./User_Setups/Setup206_LilyGo_T_Display_S3.h).
+If the standard library doesn't support this display, install it from the official repository [Xinyuan-LilyGO/T-Display-S3](https://github.com/Xinyuan-LilyGO/T-Display-S3) or take it from this repository [`Setup206_LilyGo_T_Display_S3.h`](./User_Setups/Setup206_LilyGo_T_Display_S3.h).
 
 ### Include Order
 
